@@ -1,0 +1,94 @@
+* body, html{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+body {
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-sizing: border-box;
+}
+
+
+.link-grande {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+}
+
+.presentacion{
+    display: flex;
+    align-items: center;
+    margin: 10%;
+    justify-content: space-between;
+}
+
+.imageHome {
+    width: 50%;
+    height: auto;        /* Ajusta automáticamente la altura */
+    display: block;      /* Elimina espacios extra si es inline */
+    margin: 0 auto;      /* Centrar si es más pequeña que el contenedor */
+}
+
+.presentacion__contenido{
+    width: 615px;
+}
+.presentacion__contenido__titulo{
+    font-size: 36px;
+    font-family: "Roboto Serif", serif;
+}
+
+.presentacion__contenido__texto{
+    font-size: 24px;
+    font-family: "Roboto Serif", serif;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block; /* Para que respete padding y tamaño */
+    padding: 12px 24px; /* Espaciado interno */
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #007BFF; /* Azul profesional */
+    text-decoration: none; /* Quitar subrayado */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Pequeña animación de elevación */
+}
+
+.btn-secundario {
+    background-color: #6c757d; /* Gris profesional */
+}
+
+.btn-secundario:hover {
+    background-color: #565e64;
+}
+
+.carousel-inner img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.nav_bar__mensagge {
+    background-color: burlywood;
+    color: black;
+}
+.nav_bar__contact {
+    background-color:  #282c34;
+    color: white;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Evita el scroll horizontal */
+}
